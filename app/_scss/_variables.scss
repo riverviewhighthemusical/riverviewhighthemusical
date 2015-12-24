@@ -12,25 +12,3 @@ $normal-text: 16px;
 $large-text: 18px;
 $xlarge-text: 24px;
 $xxlarge-text: 36px;
-
-@mixin pie-clearfix {
-    *zoom: 1;
-    &:after {
-        content: '';
-
-        display: table;
-        clear: both;
-    }
-}
-
-@mixin jester {
-    font-family: 'Jester';
-    text-transform: uppercase;
-}
-
-@mixin vertical-align($position: relative) {
-    position: $position;
-    top: 50%;
-
-    transform: translateY(-50%);
-}

@@ -1,0 +1,21 @@
+@mixin pie-clearfix {
+    *zoom: 1;
+    &:after {
+        content: '';
+
+        display: table;
+        clear: both;
+    }
+}
+
+@mixin jester {
+    font-family: 'Jester';
+    text-transform: uppercase;
+}
+
+@mixin vertical-align($position: relative) {
+    position: $position;
+    top: 50%;
+
+    transform: translateY(-50%);
+}
