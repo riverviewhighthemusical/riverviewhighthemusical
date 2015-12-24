@@ -26,13 +26,13 @@
     <body class="page-{{ page.slug }}">
         <header>
             <a href="{{ site.baseurl }}/">
-                <img src="{{ site.baseurl }}/img/logo.png" class="header-logo" />
+                <img src="{{ site.baseurl }}/img/logo.png" class="header__logo" width="250" />
             </a>
             <nav>
-                <a class="nav-item {% if page.slug == 'about' %}nav--selected{% endif %}" href="/about">About</a>
-                <a class="nav-item {% if page.slug == 'licensing' %}nav--selected{% endif %}" href="/licensing">Licensing</a>
-                <a class="nav-item {% if page.slug == 'sheet-music' %}nav--selected{% endif %}" href="/sheet-music">Sheet Music</a>
-                <a class="nav-item {% if page.slug == 'blog' %}nav--selected{% endif %}" href="/blog">Blog</a>
+                <a class="nav__item {% if page.slug == 'about' %}nav--selected{% endif %}" href="/about">About</a>
+                <a class="nav__item {% if page.slug == 'licensing' %}nav--selected{% endif %}" href="/licensing">Licensing</a>
+                <a class="nav__item {% if page.slug == 'sheet-music' %}nav--selected{% endif %}" href="/sheet-music">Sheet Music</a>
+                <a class="nav__item {% if page.slug == 'blog' %}nav--selected{% endif %}" href="/blog">Blog</a>
             </nav>
         </header>
         <div class="container">
@@ -42,15 +42,15 @@
             </div>
         </div>
         <footer class="footer">
-            <div class="footer-social">
-                <a href="http://www.facebook.com/RiverviewHighTheMusical" class="footer-social__link"><img src="{{ site.baseurl }}/img/facebook.png" class="footer-social__icon" title="Facebook"></a>
-                <a href="http://www.twitter.com/RiverviewHighM" class="footer-social__link"><img src="{{ site.baseurl }}/img/twitter.png" class="footer-social__icon" title="Twitter"></a>
-                <a href="https://www.youtube.com/RiverviewHighMusical" class="footer-social__link"><img src="{{ site.baseurl }}/img/youtube.png" class="footer-social__icon" title="YouTube"></a>
+            <div class="footer__social">
+                <a href="http://www.facebook.com/RiverviewHighTheMusical" class="footer__social-link"><img src="{{ site.baseurl }}/img/facebook.png" class="footer__social-icon" title="Facebook"></a>
+                <a href="http://www.twitter.com/RiverviewHighM" class="footer__social-link"><img src="{{ site.baseurl }}/img/twitter.png" class="footer__social-icon" title="Twitter"></a>
+                <a href="https://www.youtube.com/RiverviewHighMusical" class="footer__social-link"><img src="{{ site.baseurl }}/img/youtube.png" class="footer__social-icon" title="YouTube"></a>
             </div>
-            <div class="footer-copyright">
+            <div class="footer__copyright">
                 Copyright &#169; <script>document.write(new Date().getFullYear());</script>
             </div>
-            <div class="footer-youtube">
+            <div class="footer__youtube">
             </div>
         </footer>
 

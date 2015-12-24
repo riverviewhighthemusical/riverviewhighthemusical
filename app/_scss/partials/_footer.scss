@@ -11,27 +11,27 @@
     background: $blue;
 }
 
-.footer-social {
+.footer__social {
     flex-grow: 1;
 }
 
-.footer-social__link {
+.footer__social-link {
     &:hover .footer-social__icon {
         opacity: 1;
     }
 }
 
-.footer-social__icon {
+.footer__social-icon {
     opacity: .5;
 }
 
-.footer-copyright {
+.footer__copyright {
     flex-grow: 1;
 
     line-height: 34px;
     text-align: center;
 }
 
-.footer-youtube {
+.footer__youtube {
     flex-grow: 1;
 }

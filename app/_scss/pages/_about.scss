@@ -1,0 +1,21 @@
+
+.page-about {
+    .content h2 {
+        @include jester;
+
+        margin-bottom: 20px;
+
+        font-weight: bold;
+        font-size: $xlarge-text;
+    }
+
+    .about .col-sidebar__main {
+        padding-left: 20px;
+    }
+
+    .history {
+        .col-sidebar__main {
+            padding-right: 20px;
+        }
+    }
+}

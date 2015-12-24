@@ -1,0 +1,13 @@
+.col-sidebar {
+    @include pie-clearfix;
+}
+
+.col-sidebar__main {
+    float: left;
+    width: 70%;
+}
+
+.col-sidebar__sidebar {
+    float: left;
+    width: 30%;
+}

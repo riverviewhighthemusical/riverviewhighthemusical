@@ -1,16 +1,16 @@
-.story-image {
+.story__image {
     float: right;
     width: 150px;
     margin: 10px 20px;
 }
 
-.story-title {
+.story__title {
     @include jester;
 
     margin-bottom: 20px;
 }
 
-.story-title__link {
+.story__title-link {
     color: $black;
     font-weight: 600;
     font-size: $xlarge-text;

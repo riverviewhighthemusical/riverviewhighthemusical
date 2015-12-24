@@ -6,20 +6,25 @@
     background-color: $grey;
 
     &.callout--youtube {
-        .callout-content::before {
-            content: '';
+        .callout__content {
+            margin-left: 4em;
 
-            left: -2.5em;
+            &::before {
+                content: '';
 
-            border-top: 25px solid transparent;
-            border-bottom: 25px solid transparent;
-            border-left: 40px solid #000;
+                left: -2.5em;
+
+                border-top: 25px solid transparent;
+                border-bottom: 25px solid transparent;
+                border-left: 40px solid #000;
+            }
         }
     }
 
     &.callout--music {
-        .callout-content {
-            &:before {
+        .callout__content {
+            margin-left: 4em;
+            &::before {
                 content: ' ';
 
                 left: -2.5em;
@@ -34,10 +39,10 @@
     }
 }
 
-.callout-content {
+.callout__content {
     position: relative;
 
-    margin: .5em 1em .5em 4em;
+    margin: .5em 1em .5em 2em;
 
     font-family: 'Helvetica Neue';
     font-style: italic;
@@ -49,7 +54,7 @@
     }
 }
 
-.callout-link {
+.callout__link {
     font-weight: 300;
     text-decoration: none;
 

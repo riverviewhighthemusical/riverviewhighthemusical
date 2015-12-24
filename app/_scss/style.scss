@@ -1,19 +1,21 @@
 // Base Styles
-@import '_reset';
-@import '_variables';
-@import '_mixins';
-@import '_document';
+@import 'reset';
+@import 'variables';
+@import 'mixins';
+@import 'document';
 
 // Components
-@import '_col2';
-@import '_callout';
-@import '_button';
+@import 'components/col-2up';
+@import 'components/col-sidebar';
+@import 'components/callout';
+@import 'components/button';
+@import 'components/story';
+@import 'components/nav';
 
 // Partials
-@import '_story';
-@import '_header';
-@import '_nav';
-@import '_footer';
+@import 'partials/header';
+@import 'partials/footer';
 
 // Pages
-@import '_home';
+@import 'pages/home';
+@import 'pages/about';

@@ -1,7 +1,7 @@
-.col2 {
+.col-2up {
     @include pie-clearfix;
 
-    .col2-column {
+    .col-2up__column {
         float: left;
         width: 50%;
     }
