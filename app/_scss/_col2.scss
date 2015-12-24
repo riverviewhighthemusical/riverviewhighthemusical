@@ -1,0 +1,8 @@
+.col2 {
+    @include pie-clearfix;
+
+    .col2-column {
+        float: left;
+        width: 50%;
+    }
+}

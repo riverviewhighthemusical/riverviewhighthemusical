@@ -1,0 +1,19 @@
+.story-image {
+    float: right;
+    width: 150px;
+    margin: 10px 20px;
+}
+
+.story-title {
+    @include jester;
+
+    margin-bottom: 10px;
+}
+
+.story-title__link {
+    color: $black;
+    font-weight: 600;
+    font-size: $xlarge-text;
+    line-height: $xlarge-text*1.5;
+    text-decoration: none;
+}

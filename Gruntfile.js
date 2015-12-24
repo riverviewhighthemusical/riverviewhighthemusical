@@ -22,7 +22,7 @@ module.exports = function (grunt) {
     },
     watch: {
       sass: {
-        files: ['<%= yeoman.app %>/_scss/**/*.{scss,sass}'],
+        files: ['<%= yeoman.app %>/_scss/**/*.{scss,sass}', '<%= yeoman.app %>/css/**/*.scss'],
         tasks: ['sass:server', 'autoprefixer:dist']
       },
       autoprefixer: {

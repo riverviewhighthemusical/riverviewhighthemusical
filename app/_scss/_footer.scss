@@ -1,0 +1,37 @@
+.footer {
+    @include pie-clearfix;
+
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-top: 2px solid $black;
+
+    background: $blue;
+}
+
+.footer-social {
+    flex-grow: 1;
+}
+
+.footer-social__link {
+    &:hover .footer-social__icon {
+        opacity: 1;
+    }
+}
+
+.footer-social__icon {
+    opacity: .5;
+}
+
+.footer-copyright {
+    flex-grow: 1;
+
+    line-height: 34px;
+    text-align: center;
+}
+
+.footer-youtube {
+    flex-grow: 1;
+}

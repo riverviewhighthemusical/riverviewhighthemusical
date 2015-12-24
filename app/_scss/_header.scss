@@ -1,0 +1,20 @@
+header {
+    position: relative;
+
+    padding: 10px;
+    border-bottom: 2px solid $black;
+
+    background: $blue;
+
+    transform-style: preserve-3d;
+
+    nav {
+        @include vertical-align(absolute);
+
+        right: 20px;
+    }
+}
+
+.header-logo {
+    width: 200px;
+}

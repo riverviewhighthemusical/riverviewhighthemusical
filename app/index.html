@@ -1,23 +1,34 @@
 ---
 layout: default
+slug: home
+title: Riverview High The Musical
 ---
 
-<div class="home">
+<blockquote class="callout callout--music">
+    <p class="callout-content"><a href="/licensing" class="callout-link">Now available for licensing!</a></p>
+</blockquote>
 
-  <h1 class="page-heading">Posts</h1>
+<a href="https://www.youtube.com/watch?v=iq57ZqaD-_M&list=PLFt6eOAfeX7ewI5LbceUnZpD76e_uqaZ0&index=2"><img src="img/carousel/video.jpg"></a>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div class="col2">
+    <div class="col2-column story">
+        <a href="/about"><img src="img/circle-milkshake.png" class="story-image" /></a>
+        <h2 class="story-title"><a href="/about" class="story-title__link">About the Show</a></h2>
+        <p>It's the classic story of a love triangle: a sweet blonde, a sexy brunette, and an ever-so-confused redhead. Set in 1996, the musical begins with Alex accidentally asking both Cathy and Erica to prom. When the girls find out, they demand he choose which one he wants to embark on his future with - girl-next-door Cathy or sophisticated Erica?</p>
+        <p>Who's it gonna be? Just wait and see!</p>
+        <p><a href="/about">Read more...</a></p>
+    </div>
+    <div class="col2-column story">
+        <a href="/licensing"><img src="img/circle-randydexter.png" class="story-image" /></a>
+        <h2 class="story-title"><a href="/licensing" class="story-title__link">License the Show</a></h2>
+        <p>This runaway Fringe Festival hit is the perfect show for your school's annual musical production, with a cast that scale from 18-30 students.</p>
+        <p>With an upbeat contemporary pop theatre score containing themes of following your heart, being true to yourself, and discovering what really counts, it'll leave your audiences humming out of the auditorium!</p>
+        <p><a href="/licensing">Find out more</a></p>
+    </div>
 </div>
+
+<blockquote class="callout callout--youtube">
+    <p class="callout-content">
+        <a href="https://www.youtube.com/watch?v=iq57ZqaD-_M&list=PLFt6eOAfeX7ewI5LbceUnZpD76e_uqaZ0&index=2" class="callout-link">Watch the full musical on <strong>YouTube</strong>!</a>
+    </p>
+</blockquote>
