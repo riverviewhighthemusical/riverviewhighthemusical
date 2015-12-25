@@ -12,7 +12,6 @@ title: Licensing
 <div class="col-sidebar">
     <div class="col-sidebar__sidebar">
         <img src="/img/killarney-poster.jpg" />
-        <p><em>Killarney Secondary's production</em></p>
     </div>
     <div class="col-sidebar__main u--padding-left">
         <p>Following an award-winning Fringe Festival run in 2012 and a
@@ -39,6 +38,8 @@ title: Licensing
         <p>It's the classic story of a love triangle: a sweet blonde, a sexy brunette, and an ever-so-confused redhead. Set in 1996, the musical begins with Alex accidentally asking both Cathy and Erica to prom.</p>
 
         <p>When the girls find out, they demand he choose which one he wants to embark on his future with - girl-next-door Cathy or sophisticated Erica?</p>
+
+        <p><a href="/about" class="button"> more about the show</a></p>
     </div>
     <div class="col-sidebar__sidebar">
         <img src="/img/circle-milkshake.png" title="Milkshake" />
