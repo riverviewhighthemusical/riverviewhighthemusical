@@ -1,27 +1,27 @@
 ---
 layout: default
-slug: sheet-music
-title: Sheet Music
+slug: soundtrack
+title: Soundtrack
 ---
 
-Sheet music will be delivered by email (PDF) within 1-2 business days.
+Soundtracks will be delivered by email (MP3s) within 1-2 business days.
 
-{% for item in site.categories.scores reversed %}
-<div class="col-2up sheet-music__row">
+{% for item in site.categories.albums reversed %}
+<div class="col-2up soundtrack__row">
     <div class="col-2up__column">
-        <img src="/img/screenshots/{{ item.image }}" title="{{ item.title }}" />
+        <img src="/img/{{ item.image }}" title="{{ item.title }}" />
     </div>
     <div class="col-2up__column u--padding-left">
         <h2>{{ item.title }}</h2>
 
-        <span class="sheet-music__key">in {{ item.key }}</span>
+        <span class="soundtrack__featuring">featuring:</span>
         <ul>
-            {% for range in item.ranges %}
-            <li class="sheet-music__range">{{ range.name }}: <strong>{{ range.range }}</strong></li>
+            {% for song in item.songs %}
+            <li class="soundtrack__title"><em>{{ song.name }}</em></li>
             {% endfor %}
         </ul>
 
-        <p class="sheet-music__price">Price: <strong>${{ item.price }}</strong></p>
+        <p class="soundtrack__price">Price: <strong>${{ item.price }}</strong></p>
 
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top"><input type="hidden" name="cmd" value="_s-xclick" />
         <input type="hidden" name="hosted_button_id" value="{{ item.paypal }}" />
@@ -32,5 +32,6 @@ Sheet music will be delivered by email (PDF) within 1-2 business days.
 {% endfor %}
 
 <blockquote class="callout callout--music">
-    <p class="callout__content"><a href="/licensing" class="callout__link">Now available for licensing!</a></p>
+    <p class="callout__content"><a href="/sheet-music" class="callout__link">
+    Sheet music now available!</a></p>
 </blockquote>

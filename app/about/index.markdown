@@ -4,6 +4,12 @@ slug: about
 title: About
 ---
 
+<blockquote class="callout">
+    <p class="callout__content">
+        Winner of 6 Ovation Awards in 2013, including Outstanding Production!
+    </p>
+</blockquote>
+
 <div class="col-sidebar">
     <div class="col-sidebar__sidebar">
         <img src="/img/circle-milkshake.png" title="Milkshake" class="thumbnail milkshake" />
@@ -33,6 +39,10 @@ title: About
         <p>It also won the Ovation Award for <strong>Outstanding Production</strong> (Small Theatre) 2013. In addition, our own <strong>Michelle Bardach</strong> scored the award for Outstanding Supporting Performance (Female) for her portrayal of Esther. <strong>Cameron Dunster</strong> (Parker) and <strong>Alex Gullason</strong> (Mallory) also picked up the Outstanding Gypsy awards, while <strong>Caleb di Pomponio</strong> (Dexter) and <strong>Steffanie Davis</strong> (Jessie) were chosen by Vancouver's artistic leaders as Outstanding Newcomers.</p>
 
         <p>Directed by <strong>Mike Mackenzie</strong>, music directed by <strong>Stewart Yu</strong>, and choreographed by <strong>Dawn Ewen</strong>, <em>Riverview High: The Musical</em> made its return to Firehall Arts Centre from August 7-24, 2013.</p>
+
+        <p>Since then, the creators made the musical available for licensing, with
+        a special school edition that debuted at Killarney Secondary School in
+        January 2015.</p>
     </div>
 
     <div class="col-sidebar__sidebar">
@@ -44,8 +54,7 @@ title: About
     </div>
 </div>
 
-<blockquote class="callout">
-    <p class="callout__content">
-        Winner of 6 Ovation Awards in 2013, including Outstanding Production!
-    </p>
+
+<blockquote class="callout callout--music">
+    <p class="callout__content"><a href="/licensing" class="callout__link">Now available for licensing!</a></p>
 </blockquote>
