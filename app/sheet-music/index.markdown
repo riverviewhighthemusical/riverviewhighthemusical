@@ -32,5 +32,5 @@ Sheet music will be delivered by email (PDF) within 1-2 business days.
 {% endfor %}
 
 <blockquote class="callout callout--music">
-    <p class="callout__content"><a href="/licensing" class="callout__link">Now available for licensing!</a></p>
+    <p class="callout__content"><a href="/soundtrack" class="callout__link">Get the soundtracks!</a></p>
 </blockquote>
