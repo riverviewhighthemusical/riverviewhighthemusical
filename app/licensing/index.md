@@ -12,13 +12,12 @@ title: Licensing
 <div class="col-sidebar">
     <div class="col-sidebar__sidebar">
         <img src="/img/killarney-poster.jpg" />
-        <p><em>Poster from Killarney Secondary's production</em></p>
+        <p><em>Killarney Secondary's production</em></p>
     </div>
     <div class="col-sidebar__main u--padding-left">
         <p>Following an award-winning Fringe Festival run in 2012 and a
         remount in 2013, the creative team began licensing <em>Riverview High: The
-        Musical (School Edition)</em>, a school-friendly version of the show
-        that debuted at Killarney Secondary School in January 2015.</p>
+        Musical (School Edition)</em>, which debuted at Killarney Secondary School in January 2015.</p>
 
         <p><strong>Style</strong>: Fun, contemporary pop musical theatre.</p>
 
