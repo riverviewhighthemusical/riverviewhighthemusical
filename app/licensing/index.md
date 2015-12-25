@@ -15,21 +15,21 @@ title: Licensing
         <p><em>Poster from Killarney Secondary's production</em></p>
     </div>
     <div class="col-sidebar__main u--padding-left">
-        <p>After an award-winning Fringe Festival run in 2012 and an updated
-        remount in 2013, <em>Riverview High: The Musical</em> has found new
-        life in community productions, especially popular with schools.</p>
-
-        <p>In 2014, the creative team began licensing <em>Riverview High: The
+        <p>Following an award-winning Fringe Festival run in 2012 and a
+        remount in 2013, the creative team began licensing <em>Riverview High: The
         Musical (School Edition)</em>, a school-friendly version of the show
-        that debuted at <strong>Killarney Secondary School</strong> in January
-        2015.</p>
+        that debuted at Killarney Secondary School in January 2015.</p>
 
-        <p>With themes of self-acceptance and diversity, and featuring catchy
-        contemporary pop theatre tunes, it's a heartwarming new musical that
-        your students will love performing.</p>
+        <p><strong>Style</strong>: Fun, contemporary pop musical theatre.</p>
 
-        <p>Featuring a cast of 18-30, the ensemble size can scale depending on
-        how much doubling you want in your cast.</p>
+        <p><strong>Themes</strong>: Romance, self-acceptance, diversity,
+        being true to yourself, following your heart.</p>
+
+        <p><strong>Cast Size</strong>: 8 principals, 8-22 ensemble. All teenage roles.</p>
+
+        <p><strong>Orchestra</strong>: Keyboard, drums, bass, guitar.</p>
+
+        <p><strong>Setting</strong>: Riverview High School, 1996.</p>
     </div>
 </div>
 
