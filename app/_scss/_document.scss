@@ -21,7 +21,16 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Jester', 'Helvetica Neue';
+    @include jester;
+}
+
+h2 {
+    @include jester;
+
+    margin-bottom: 20px;
+
+    font-weight: bold;
+    font-size: $xlarge-text;
 }
 
 p {
@@ -53,5 +62,14 @@ strong {
 }
 
 .content {
+    max-width: 900px;
+    margin: 0 auto;
     padding: 1em 2em;
+
+    &::after {
+        content: '';
+
+        display: block;
+        margin-bottom: 56px;
+    }
 }

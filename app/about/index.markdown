@@ -4,12 +4,12 @@ slug: about
 title: About
 ---
 
-<div class="col-sidebar page-about__about">
+<div class="col-sidebar">
     <div class="col-sidebar__sidebar">
         <img src="/img/circle-milkshake.png" title="Milkshake" class="thumbnail milkshake" />
     </div>
 
-    <div class="col-sidebar__main">
+    <div class="col-sidebar__main u--padding-left">
         <p>It's the classic story of a <strong>love triangle</strong>: a sweet <strong>blonde</strong>, a sexy <strong>brunette</strong>, and an ever-so-confused <strong>redhead</strong>. Set in 1996, the musical begins with Alex accidentally asking both Cathy and Erica to prom.</p>
 
         <p>When the girls find out, they demand he choose which one he wants to embark on his future with - <strong>girl-next-door Cathy or sophisticated Erica</strong>?</p>
@@ -24,8 +24,8 @@ title: About
 
 ## Show History
 
-<div class="col-sidebar page-about__history">
-    <div class="col-sidebar__main">
+<div class="col-sidebar">
+    <div class="col-sidebar__main u--padding-right">
         <p><em>Riverview High: The Musical</em> began in April 2011 during a casual conversation in the car between <strong>Stewart Yu</strong> (music and lyrics) and <strong>Angela Wong</strong> (book). By the end of June 2011, Angela and Stewart had sketched out the storyline and completed six songs, which they tried out on a few friends in the first singthrough. <strong>Mike Mackenzie</strong>, signed onto the project at the end of 2011 to direct the production and to assist with lyrics.</p>
 
         <p>In February 2012, the <strong>Vancouver Fringe Festival</strong> officially accepted <em>Riverview High: The Musical</em> as a BYOV artist. The piece was further developed in a series of workshops in April and May 2012. <em>Riverview High: The Musical</em>'s made its world premiere on September 6, 2012 at the <strong>Firehall Arts Centre</strong> and was an instant hit, selling out its run at the <strong>Vancouver Fringe Festival</strong>. It was voted Pick of the Fringe, and it was the best-selling show in the history of the Vancouver Fringe Festival.</p>
