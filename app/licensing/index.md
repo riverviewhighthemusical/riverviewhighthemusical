@@ -53,21 +53,21 @@ title: Licensing
     <div class="col-sidebar__main u--padding-left">
         <h2>Principals</h2>
 
-        <p><strong>ALEX</strong> (<em>baritenor</em>) is a red-headed teenager who often thinks less with his brain and more with his crotch. He is simultaneously in love with Cathy and Erica and has a tough time committing to just one girl.</p>
+        <p><strong>ALEX</strong> <em>(baritenor)</em> is a red-headed teenager who often thinks less with his brain and more with his crotch. He is simultaneously in love with Cathy and Erica and has a tough time committing to just one girl.</p>
 
-        <p><strong>CATHY C.</strong> (<em>mezzo</em>) is a sweet, loveable blonde who has been friends with Alex since grade school - and has been in love with Alex for just as long. Her rival is Erica.</p>
+        <p><strong>CATHY C.</strong> <em>(mezzo)</em> is a sweet, loveable blonde who has been friends with Alex since grade school - and has been in love with Alex for just as long. Her rival is Erica.</p>
 
-        <p><strong>ERICA SNODGE</strong> (<em>alto</em>) is brunette vixen from the richest family in Riverview. She always gets what she wants and what she wants is Alex. Her rival is Cathy.</p>
+        <p><strong>ERICA SNODGE</strong> <em>(alto)</em> is brunette vixen from the richest family in Riverview. She always gets what she wants and what she wants is Alex. Her rival is Cathy.</p>
 
-        <p><strong>PARKER</strong> (<em>baritone</em>) is the best friend of Alex. He is a food-lover and a lady-hater. He is the unwilling object of Esther's affection.</p>
+        <p><strong>PARKER</strong> <em>(baritone)</em> is the best friend of Alex. He is a food-lover and a lady-hater. He is the unwilling object of Esther's affection.</p>
 
-        <p><strong>DEXTER</strong> (<em>tenor</em>) is the smartest student at Riverview High. He is shy and has low self-esteem due to his nerdy appearance. He is secretly in love with Cathy, who is clueless about his feelings.</p>
+        <p><strong>DEXTER</strong> <em>(tenor)</em> is the smartest student at Riverview High. He is shy and has low self-esteem due to his nerdy appearance. He is secretly in love with Cathy, who is clueless about his feelings.</p>
 
-        <p><strong>RANDY</strong> (<em>tenor</em>) is a rich teenager with a sharp tongue and a deep sense of entitlement. He believes that Erica belongs with him, and openly despises Alex for coming between him and Erica.</p>
+        <p><strong>RANDY</strong> <em>(tenor)</em> is a rich teenager with a sharp tongue and a deep sense of entitlement. He believes that Erica belongs with him, and openly despises Alex for coming between him and Erica.</p>
 
-        <p><strong>ESTHER</strong> (<em>alto</em>) is an awkward girl who transferred to Riverview High in her freshman year – the same year she fell in love with Parker. She often tries to win over Parker with her antics, but with little success.</p>
+        <p><strong>ESTHER</strong> <em>(alto)</em> is an awkward girl who transferred to Riverview High in her freshman year – the same year she fell in love with Parker. She often tries to win over Parker with her antics, but with little success.</p>
 
-        <p><strong>SCARLETT CHAMBERS</strong> (<em>alto</em>) is a rich and flirty red-head. She attends Oceanview High – the arch rival school of Riverview High. She loves to seduce guys and toy with their affections.</p>
+        <p><strong>SCARLETT CHAMBERS</strong> <em>(alto)</em> is a rich and flirty red-head. She attends Oceanview High – the arch rival school of Riverview High. She loves to seduce guys and toy with their affections.</p>
     </div>
 </div>
 
