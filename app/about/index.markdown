@@ -4,7 +4,7 @@ slug: about
 title: About
 ---
 
-<div class="col-sidebar about">
+<div class="col-sidebar page-about__about">
     <div class="col-sidebar__sidebar">
         <img src="/img/circle-milkshake.png" title="Milkshake" class="thumbnail milkshake" />
     </div>
@@ -24,7 +24,7 @@ title: About
 
 ## Show History
 
-<div class="col-sidebar history">
+<div class="col-sidebar page-about__history">
     <div class="col-sidebar__main">
         <p><em>Riverview High: The Musical</em> began in April 2011 during a casual conversation in the car between <strong>Stewart Yu</strong> (music and lyrics) and <strong>Angela Wong</strong> (book). By the end of June 2011, Angela and Stewart had sketched out the storyline and completed six songs, which they tried out on a few friends in the first singthrough. <strong>Mike Mackenzie</strong>, signed onto the project at the end of 2011 to direct the production and to assist with lyrics.</p>
 

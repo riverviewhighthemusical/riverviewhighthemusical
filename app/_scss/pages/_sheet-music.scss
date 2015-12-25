@@ -1,0 +1,33 @@
+.page-sheet-music {
+    .col-2up__column:nth-of-type(2) {
+        padding-left: 20px;
+    }
+}
+
+.sheet-music__row {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid $grey;
+}
+
+.sheet-music__title {
+    margin-bottom: 20px;
+
+    font-weight: bold;
+    font-size: $xlarge-text;
+    text-transform: uppercase;
+}
+
+.sheet-music__key {
+    color: $dark-grey;
+    font-style: italic;
+    line-height: 1.5em;
+}
+
+.sheet-music__range {
+    line-height: 1.5em;
+}
+
+.sheet-music__price {
+    margin-top: 20px;
+}
