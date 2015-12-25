@@ -24,18 +24,18 @@
  </head>
 
     <body class="page-{{ page.slug }}">
-        <header>
-            <a href="{{ site.baseurl }}/">
-                <img src="{{ site.baseurl }}/img/logo.png" class="header__logo" width="250" />
-            </a>
-            <nav>
-                <a class="nav__item {% if page.slug == 'about' %}nav--selected{% endif %}" href="/about">About</a>
-                <a class="nav__item {% if page.slug == 'licensing' %}nav--selected{% endif %}" href="/licensing">Licensing</a>
-                <a class="nav__item {% if page.slug == 'sheet-music' %}nav--selected{% endif %}" href="/sheet-music">Sheet Music</a>
-                <a class="nav__item {% if page.slug == 'blog' %}nav--selected{% endif %}" href="/blog">Blog</a>
-            </nav>
-        </header>
         <div class="container">
+            <header>
+                <a href="{{ site.baseurl }}/">
+                    <img src="{{ site.baseurl }}/img/logo.png" class="header__logo" width="150" />
+                </a>
+                <nav>
+                    <a class="nav__item {% if page.slug == 'about' %}nav--selected{% endif %}" href="/about">About</a>
+                    <a class="nav__item {% if page.slug == 'licensing' %}nav--selected{% endif %}" href="/licensing">Licensing</a>
+                    <a class="nav__item {% if page.slug == 'sheet-music' %}nav--selected{% endif %}" href="/sheet-music">Sheet Music</a>
+                    <a class="nav__item {% if page.slug == 'blog' %}nav--selected{% endif %}" href="/blog">Blog</a>
+                </nav>
+            </header>
         <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
             <div class="content">
                 {{ content }}
