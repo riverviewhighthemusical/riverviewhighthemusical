@@ -286,8 +286,9 @@ module.exports = function (grunt) {
         options: {
           remote: 'git@github.com:stewartyu/riverviewhighthemusical.git',
           branch: 'gh-pages',
-          commit: false,
-          push: true
+          commit: true,
+          push: true,
+          connectCommits: false
         }
       }
     },
