@@ -17,3 +17,14 @@
 .sheet-music__price {
     margin-top: 20px;
 }
+
+.sheet-music__info {
+    padding-left: 20px;
+}
+
+/* MOBILE */
+@media only screen and (max-width : 700px) {
+    .sheet-music__info {
+        padding: 20px 0 0 0;
+    }
+}

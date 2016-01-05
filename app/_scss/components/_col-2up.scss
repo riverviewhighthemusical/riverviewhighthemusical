@@ -12,10 +12,5 @@
     .col-2up__column {
         float: none;
         width: 100%;
-        border-bottom: 1px solid $grey;
-
-        &:last-of-type {
-            border-bottom: 0;
-        }
     }
 }

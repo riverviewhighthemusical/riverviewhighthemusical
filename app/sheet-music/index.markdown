@@ -11,7 +11,7 @@ Sheet music will be delivered by email (PDF) within 1-2 business days.
     <div class="col-2up__column">
         <img src="/img/screenshots/{{ item.image }}" title="{{ item.title }}" />
     </div>
-    <div class="col-2up__column u--padding-left">
+    <div class="col-2up__column sheet-music__info">
         <h2>{{ item.title }}</h2>
 
         <span class="sheet-music__key">in {{ item.key }}</span>

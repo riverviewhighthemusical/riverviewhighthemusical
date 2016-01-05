@@ -26,8 +26,13 @@
 @media only screen and (max-width : 400px) {
     .story {
         padding: 10px 0;
+        border-bottom: 1px solid $grey;
 
         text-align: center;
+
+        &:last-of-type {
+            border-bottom: 0;
+        }
 
         p {
             text-align: left;
