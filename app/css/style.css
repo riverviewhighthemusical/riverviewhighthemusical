@@ -263,7 +263,7 @@ strong {
 .callout {
   margin: 1em 0 2em;
   padding: 1.5em 0;
-  border-left: 0.5em solid #c82533;
+  border-left: 0.5em solid #ed1c24;
   background-color: #eee; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stewartyu\/Code\/riverviewhighthemusical\/app\/_scss\/components\/_callout\.scss}line{font-family:\000039}}
   .callout.callout--youtube .callout__content {
