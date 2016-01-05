@@ -38,7 +38,7 @@ node_modules
 .tmp
 
 # Ignore compiled CSS #
-app/css/style.css
+#app/css/style.css
 
 # Ignore for RVM users #
 .ruby-version
