@@ -1,3 +1,7 @@
+.soundtrack__image {
+    text-align: center;
+}
+
 .soundtrack__featuring {
     color: $dark-grey;
     font-style: italic;
@@ -16,4 +20,15 @@
     margin-bottom: 30px;
     padding-bottom: 30px;
     border-bottom: 1px solid $grey;
+}
+
+.soundtrack__info {
+    padding: 0 0 0 20px;
+}
+
+/* MOBILE */
+@media only screen and (max-width : 700px) {
+    .soundtrack__info {
+        padding: 20px 0 0 0;
+    }
 }

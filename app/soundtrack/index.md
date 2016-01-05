@@ -8,10 +8,10 @@ Soundtracks will be delivered by email (MP3s) within 1-2 business days.
 
 {% for item in site.categories.albums reversed %}
 <div class="col-2up soundtrack__row">
-    <div class="col-2up__column">
+    <div class="col-2up__column soundtrack__image">
         <img src="/img/{{ item.image }}" title="{{ item.title }}" />
     </div>
-    <div class="col-2up__column u--padding-left">
+    <div class="col-2up__column soundtrack__info">
         <h2>{{ item.title }}</h2>
 
         <span class="soundtrack__featuring">featuring:</span>

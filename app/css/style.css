@@ -510,50 +510,68 @@ strong {
           flex-grow: 1; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stewartyu\/Code\/riverviewhighthemusical\/app\/_scss\/pages\/_sheet-music\.scss}line{font-family:\000031}}
+.sheet-music__image {
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stewartyu\/Code\/riverviewhighthemusical\/app\/_scss\/pages\/_sheet-music\.scss}line{font-family:\000035}}
 .sheet-music__row {
   margin-bottom: 30px;
   padding-bottom: 30px;
   border-bottom: 1px solid #eee; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stewartyu\/Code\/riverviewhighthemusical\/app\/_scss\/pages\/_sheet-music\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stewartyu\/Code\/riverviewhighthemusical\/app\/_scss\/pages\/_sheet-music\.scss}line{font-family:\0000311}}
 .sheet-music__key {
   color: #999;
   font-style: italic;
   line-height: 1.5em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stewartyu\/Code\/riverviewhighthemusical\/app\/_scss\/pages\/_sheet-music\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stewartyu\/Code\/riverviewhighthemusical\/app\/_scss\/pages\/_sheet-music\.scss}line{font-family:\0000317}}
 .sheet-music__range {
   line-height: 1.5em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stewartyu\/Code\/riverviewhighthemusical\/app\/_scss\/pages\/_sheet-music\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stewartyu\/Code\/riverviewhighthemusical\/app\/_scss\/pages\/_sheet-music\.scss}line{font-family:\0000321}}
 .sheet-music__price {
   margin-top: 20px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stewartyu\/Code\/riverviewhighthemusical\/app\/_scss\/pages\/_sheet-music\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stewartyu\/Code\/riverviewhighthemusical\/app\/_scss\/pages\/_sheet-music\.scss}line{font-family:\0000325}}
 .sheet-music__info {
   padding-left: 20px; }
 
 /* MOBILE */
 @media only screen and (max-width: 700px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stewartyu\/Code\/riverviewhighthemusical\/app\/_scss\/pages\/_sheet-music\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stewartyu\/Code\/riverviewhighthemusical\/app\/_scss\/pages\/_sheet-music\.scss}line{font-family:\0000331}}
   .sheet-music__info {
     padding: 20px 0 0 0; } }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stewartyu\/Code\/riverviewhighthemusical\/app\/_scss\/pages\/_soundtrack\.scss}line{font-family:\000031}}
+.soundtrack__image {
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stewartyu\/Code\/riverviewhighthemusical\/app\/_scss\/pages\/_soundtrack\.scss}line{font-family:\000035}}
 .soundtrack__featuring {
   color: #999;
   font-style: italic;
   line-height: 1.5em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stewartyu\/Code\/riverviewhighthemusical\/app\/_scss\/pages\/_soundtrack\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stewartyu\/Code\/riverviewhighthemusical\/app\/_scss\/pages\/_soundtrack\.scss}line{font-family:\0000311}}
 .soundtrack__title {
   line-height: 1.5em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stewartyu\/Code\/riverviewhighthemusical\/app\/_scss\/pages\/_soundtrack\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stewartyu\/Code\/riverviewhighthemusical\/app\/_scss\/pages\/_soundtrack\.scss}line{font-family:\0000315}}
 .soundtrack__price {
   margin-top: 20px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stewartyu\/Code\/riverviewhighthemusical\/app\/_scss\/pages\/_soundtrack\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stewartyu\/Code\/riverviewhighthemusical\/app\/_scss\/pages\/_soundtrack\.scss}line{font-family:\0000319}}
 .soundtrack__row {
   margin-bottom: 30px;
   padding-bottom: 30px;
   border-bottom: 1px solid #eee; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stewartyu\/Code\/riverviewhighthemusical\/app\/_scss\/pages\/_soundtrack\.scss}line{font-family:\0000325}}
+.soundtrack__info {
+  padding: 0 0 0 20px; }
+
+/* MOBILE */
+@media only screen and (max-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stewartyu\/Code\/riverviewhighthemusical\/app\/_scss\/pages\/_soundtrack\.scss}line{font-family:\0000331}}
+  .soundtrack__info {
+    padding: 20px 0 0 0; } }
