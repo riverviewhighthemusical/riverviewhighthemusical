@@ -420,8 +420,9 @@ strong {
   font-size: 30px;
   text-transform: uppercase; }
 
+/* MOBILE */
 @media only screen and (max-width: 750px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stewartyu\/Code\/riverviewhighthemusical\/app\/_scss\/partials\/_header\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stewartyu\/Code\/riverviewhighthemusical\/app\/_scss\/partials\/_header\.scss}line{font-family:\0000332}}
   .header__menu {
     display: block; } }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stewartyu\/Code\/riverviewhighthemusical\/app\/_scss\/partials\/_footer\.scss}line{font-family:\000031}}
