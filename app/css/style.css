@@ -197,7 +197,7 @@ strong {
 .content {
   max-width: 900px;
   margin: 0 auto;
-  padding: 1em 2em; }
+  padding: 1em; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stewartyu\/Code\/riverviewhighthemusical\/app\/_scss\/_document\.scss}line{font-family:\0000369}}
   .content::after {
     content: '';
@@ -257,9 +257,9 @@ strong {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stewartyu\/Code\/riverviewhighthemusical\/app\/_scss\/components\/_callout\.scss}line{font-family:\000031}}
 .callout {
-  margin: 20px 0 40px;
-  padding: 30px 0;
-  border-left: 10px solid #c82533;
+  margin: 1em 0 2em;
+  padding: 1.5em 0;
+  border-left: 0.5em solid #c82533;
   background-color: #eee; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stewartyu\/Code\/riverviewhighthemusical\/app\/_scss\/components\/_callout\.scss}line{font-family:\000039}}
   .callout.callout--youtube .callout__content {
@@ -267,23 +267,23 @@ strong {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stewartyu\/Code\/riverviewhighthemusical\/app\/_scss\/components\/_callout\.scss}line{font-family:\0000312}}
     .callout.callout--youtube .callout__content::before {
       content: '';
-      left: -2.5em;
-      border-top: 25px solid transparent;
-      border-bottom: 25px solid transparent;
-      border-left: 40px solid #000; }
+      left: -2.75em;
+      border-top: 1em solid transparent;
+      border-bottom: 1em solid transparent;
+      border-left: 1.5em solid #000; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stewartyu\/Code\/riverviewhighthemusical\/app\/_scss\/components\/_callout\.scss}line{font-family:\0000325}}
   .callout.callout--music .callout__content {
     margin-left: 4em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stewartyu\/Code\/riverviewhighthemusical\/app\/_scss\/components\/_callout\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stewartyu\/Code\/riverviewhighthemusical\/app\/_scss\/components\/_callout\.scss}line{font-family:\0000328}}
     .callout.callout--music .callout__content::before {
       content: ' ';
-      left: -2.5em;
-      width: 50px;
-      height: 55px;
+      left: -3em;
+      width: 2em;
+      height: 2.5em;
       background: url(/img/music-note.png) no-repeat;
-      background-size: 50px auto; }
+      background-size: 2em auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stewartyu\/Code\/riverviewhighthemusical\/app\/_scss\/components\/_callout\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stewartyu\/Code\/riverviewhighthemusical\/app\/_scss\/components\/_callout\.scss}line{font-family:\0000343}}
 .callout__content {
   position: relative;
   margin: .5em 1em .5em 2em;
@@ -291,22 +291,31 @@ strong {
   font-style: italic;
   font-size: 35px;
   line-height: 1.5em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stewartyu\/Code\/riverviewhighthemusical\/app\/_scss\/components\/_callout\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stewartyu\/Code\/riverviewhighthemusical\/app\/_scss\/components\/_callout\.scss}line{font-family:\0000353}}
   .callout__content::before {
     position: absolute;
     top: 50%;
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stewartyu\/Code\/riverviewhighthemusical\/app\/_scss\/components\/_callout\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stewartyu\/Code\/riverviewhighthemusical\/app\/_scss\/components\/_callout\.scss}line{font-family:\0000358}}
 .callout__link {
   font-weight: 300;
   text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stewartyu\/Code\/riverviewhighthemusical\/app\/_scss\/components\/_callout\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stewartyu\/Code\/riverviewhighthemusical\/app\/_scss\/components\/_callout\.scss}line{font-family:\0000362}}
   .callout__link:hover {
     color: #005580;
     text-decoration: underline; }
 
+/* MOBILE */
+@media only screen and (max-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stewartyu\/Code\/riverviewhighthemusical\/app\/_scss\/components\/_callout\.scss}line{font-family:\0000370}}
+  .callout__content {
+    font-size: 24px; } }
+@media only screen and (max-width: 400px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stewartyu\/Code\/riverviewhighthemusical\/app\/_scss\/components\/_callout\.scss}line{font-family:\0000376}}
+  .callout__content {
+    font-size: 16px; } }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stewartyu\/Code\/riverviewhighthemusical\/app\/_scss\/components\/_button\.scss}line{font-family:\000031}}
 .button {
   font-family: 'Jester';
@@ -375,7 +384,7 @@ strong {
 @media only screen and (max-width: 400px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stewartyu\/Code\/riverviewhighthemusical\/app\/_scss\/components\/_story\.scss}line{font-family:\0000327}}
   .story {
-    padding: 10px;
+    padding: 10px 0;
     text-align: center; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stewartyu\/Code\/riverviewhighthemusical\/app\/_scss\/components\/_story\.scss}line{font-family:\0000332}}
     .story p {
