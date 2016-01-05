@@ -1,16 +1,34 @@
 .header {
-    position: relative;
-
     padding: 10px;
     border-bottom: 2px solid $black;
 
     background: $blue;
 
     transform-style: preserve-3d;
+}
 
-    nav {
-        @include vertical-align(absolute);
+.header__container {
+    position: relative;
+}
 
-        right: 20px;
+.header__menu {
+    @include vertical-align(absolute);
+
+    right: 20px;
+
+    display: none;
+    padding: 10px;
+
+    border-radius: 5px;
+    background-color: $light-blue;
+
+    color: $white;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width : 750px) {
+    .header__menu {
+        display: block;
     }
 }
