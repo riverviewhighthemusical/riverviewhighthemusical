@@ -1,3 +1,7 @@
+.story {
+    padding: 30px 20px;
+}
+
 .story__image {
     float: right;
     width: 150px;
@@ -16,4 +20,20 @@
     font-size: $xlarge-text;
     line-height: $xlarge-text*1.5;
     text-decoration: none;
+}
+
+/* MOBILE */
+@media only screen and (max-width : 400px) {
+    .story {
+        padding: 10px 0;
+
+        text-align: center;
+
+        p {
+            text-align: left;
+        }
+    }
+    .story__image {
+        float: none;
+    }
 }

@@ -1,8 +1,21 @@
 .col-2up {
     @include pie-clearfix;
+}
 
+.col-2up__column {
+    float: left;
+    width: 50%;
+}
+
+/* MOBILE */
+@media only screen and (max-width : 700px) {
     .col-2up__column {
-        float: left;
-        width: 50%;
+        float: none;
+        width: 100%;
+        border-bottom: 1px solid $grey;
+
+        &:last-of-type {
+            border-bottom: 0;
+        }
     }
 }
