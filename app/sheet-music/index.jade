@@ -1,0 +1,35 @@
+---
+layout: default
+slug: sheet-music
+title: Sheet Music
+---
+
+p Sheet music will be delivered by email (PDF) within 1-2 business days.
+
+{% for item in site.categories.scores reversed %}
+.col-2up.sheet-music__row
+    .col-2up__column.sheet-music__image
+        img(src="/img/screenshots/{{ item.image }}", title="{{ item.title }}")
+    .col-2up__column.sheet-music__info
+        h2 {{ item.title }}
+        span.sheet-music__key in {{ item.key }}
+        ul
+            {% for range in item.ranges %}
+            li.sheet-music__range
+                | {{ range.name }}:
+                strong {{ range.range }}
+            {% endfor %}
+        p.sheet-music__price
+            | Price:
+            strong ${{ item.price }}
+        form(action="https://www.paypal.com/cgi-bin/webscr", method="post", target="_top")
+            input(type="hidden", name="cmd", value="_s-xclick")
+            input(type="hidden", name="hosted_button_id", value="{{ item.paypal }}")
+            input(type="image", alt="PayPal - The safer, easier way to pay online!", name="submit", src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif")
+            img(alt="", src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif", width="1", height="1", border="0")
+
+{% endfor %}
+
+blockquote.callout.callout--music
+      p.callout__content
+        a.callout__link(href="/soundtrack") Get the soundtracks!
