@@ -284,7 +284,7 @@ module.exports = function (grunt) {
     buildcontrol: {
       dist: {
         options: {
-          remote: 'git@github.com:riverviewhighthemusical/riverviewhighthemusical.git',
+          remote: 'git@github.com:stewartyu/riverviewhighthemusical.git',
           branch: 'gh-pages',
           commit: true,
           push: true
