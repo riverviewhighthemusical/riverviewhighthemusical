@@ -19,7 +19,7 @@ p Soundtracks will be delivered by email (MP3s) within 1-2 business days.
                 em {{ song.name }}
             | {% endfor %}
         p.soundtrack__price
-            | Price:
+            | Price: 
             strong ${{ item.price }}
         form(action="https://www.paypal.com/cgi-bin/webscr", method="post", target="_top")
           input(type="hidden", name="cmd", value="_s-xclick")
