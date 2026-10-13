@@ -24,5 +24,6 @@ npm run check     # type-check
 
 ## Deploy
 
-Pushing to `master` builds and deploys with GitHub Actions (`.github/workflows/deploy.yml`).
-Repository Settings → Pages → Source must be set to **GitHub Actions**.
+Pushing to `master` runs `.github/workflows/deploy.yml`, which builds the site and commits
+`dist/` to the `gh-pages` branch that GitHub Pages serves. To roll back, revert the latest
+commit on `gh-pages`.
