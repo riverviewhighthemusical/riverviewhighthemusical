@@ -76,7 +76,13 @@ const socialLinks = [
           ))
         }
       </div>
-      <div class="footer__copyright">Copyright &copy; {new Date().getFullYear()}</div>
+      <div class="footer__copyright">
+        Copyright &copy; <span id="copyright-year">{new Date().getFullYear()}</span>
+        <script is:inline>
+          // Keep the year current without a rebuild; the build year is the no-JS fallback.
+          document.getElementById('copyright-year').textContent = new Date().getFullYear();
+        </script>
+      </div>
     </footer>
 
     <script>
