@@ -1,0 +1,41 @@
+---
+import { Image } from 'astro:assets';
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Callout from '../../components/Callout.astro';
+import PayPalButton from '../../components/PayPalButton.astro';
+
+// Filenames are date-prefixed in show order.
+const scores = (await getCollection('scores')).sort((a, b) => a.id.localeCompare(b.id));
+---
+
+<Base title="Sheet Music">
+  <p>Sheet music will be delivered by email (PDF) within 1-2 business days.</p>
+
+  {
+    scores.map(({ data }) => (
+      <div class="col-2up product">
+        <div class="product__image">
+          <Image src={data.image} alt={`${data.title} sheet music preview`} width={544} />
+        </div>
+        <div class="product__info">
+          <h2>{data.title}</h2>
+          <span class="product__subtitle">in {data.key}</span>
+          <ul>
+            {data.ranges.map(({ name, range }) => (
+              <li class="product__item">
+                {name}: <strong>{range}</strong>
+              </li>
+            ))}
+          </ul>
+          <p class="product__price">
+            Price: <strong>${data.price}</strong>
+          </p>
+          <PayPalButton buttonId={data.paypal} />
+        </div>
+      </div>
+    ))
+  }
+
+  <Callout icon="music" href="/soundtrack">Get the soundtracks!</Callout>
+</Base>

@@ -1,0 +1,29 @@
+# Riverview High The Musical
+
+Source for [www.riverviewhighthemusical.com](https://www.riverviewhighthemusical.com), built with [Astro](https://astro.build).
+
+## Develop
+
+Requires Node 22.12+.
+
+```sh
+npm install
+npm run dev       # http://localhost:4321
+npm run build     # outputs to dist/
+npm run preview   # serve the built site
+npm run check     # type-check
+```
+
+## Where things live
+
+- `src/pages/` – the five main pages, plus `[...path].astro`, which renders news posts at their original Jekyll URLs
+- `src/content/posts/` – news posts imported from the original WordPress site
+- `src/content/albums/`, `src/content/scores/` – products on the Soundtrack and Sheet Music pages; add a Markdown file here to list a new one
+- `src/assets/img/` – images, optimized to WebP at build time
+- `src/styles/global.css` – all styles
+- `src/consts.ts` – site title, contact email, YouTube link
+
+## Deploy
+
+Pushing to `master` builds and deploys with GitHub Actions (`.github/workflows/deploy.yml`).
+Repository Settings → Pages → Source must be set to **GitHub Actions**.

@@ -1,0 +1,23 @@
+---
+interface Props {
+  href?: string;
+  /** Adds a music-note or play-button icon before the text. */
+  icon?: 'music' | 'youtube';
+}
+
+const { href, icon } = Astro.props;
+---
+
+<blockquote class:list={['callout', icon && `callout--${icon}`]}>
+  <p class="callout__content">
+    {
+      href ? (
+        <a class="callout__link" href={href}>
+          <slot />
+        </a>
+      ) : (
+        <slot />
+      )
+    }
+  </p>
+</blockquote>
