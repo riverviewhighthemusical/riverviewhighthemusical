@@ -1,0 +1,52 @@
+---
+import { Image } from 'astro:assets';
+import Base from '../layouts/Base.astro';
+import Callout from '../components/Callout.astro';
+import { YOUTUBE_FULL_SHOW } from '../consts';
+import video from '../assets/img/video.jpg';
+import milkshake from '../assets/img/circle-milkshake.png';
+import randyDexter from '../assets/img/circle-randydexter.png';
+---
+
+<Base>
+  <Callout icon="music" href="/licensing">Now available for licensing!</Callout>
+
+  <a href={YOUTUBE_FULL_SHOW}>
+    <Image src={video} alt="Watch Riverview High The Musical on YouTube" widths={[600, 900, 1142]} sizes="(max-width: 900px) 100vw, 900px" loading="eager" />
+  </a>
+
+  <div class="col-2up">
+    <section class="story">
+      <a href="/about">
+        <Image src={milkshake} alt="" width={150} densities={[1, 2]} class="story__image" />
+      </a>
+      <h2 class="story__title"><a class="story__title-link" href="/about">About the Show</a></h2>
+      <p>
+        It's the classic story of a love triangle: a sweet blonde, a sexy brunette, and an ever-so-confused redhead.
+        Set in 1996, the musical begins with Alex accidentally asking both Cathy and Erica to prom. When the girls find
+        out, they demand he choose which one he wants to embark on his future with - girl-next-door Cathy or
+        sophisticated Erica?
+      </p>
+      <p>Who's it gonna be? Just wait and see!</p>
+      <p><a href="/about">Read more...</a></p>
+    </section>
+
+    <section class="story">
+      <a href="/licensing">
+        <Image src={randyDexter} alt="" width={150} class="story__image" />
+      </a>
+      <h2 class="story__title"><a class="story__title-link" href="/licensing">License the Show</a></h2>
+      <p>
+        This runaway Fringe Festival hit is the perfect show for your school's annual musical production, with a cast
+        that scale from 18-30 students.
+      </p>
+      <p>
+        With an upbeat contemporary pop theatre score containing themes of following your heart, being true to
+        yourself, and discovering what really counts, it'll leave your audiences humming out of the auditorium!
+      </p>
+      <p><a href="/licensing">Find out more</a></p>
+    </section>
+  </div>
+
+  <Callout icon="youtube" href={YOUTUBE_FULL_SHOW}>Watch the full musical on YouTube!</Callout>
+</Base>

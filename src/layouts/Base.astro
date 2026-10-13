@@ -1,0 +1,97 @@
+---
+import { Image } from 'astro:assets';
+import '../styles/global.css';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+import logo from '../assets/img/logo.png';
+import favicon from '../assets/img/logo-square.png';
+import facebook from '../assets/img/social/facebook.png';
+import twitter from '../assets/img/social/twitter.png';
+import youtube from '../assets/img/social/youtube.png';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const { title, description = SITE_DESCRIPTION } = Astro.props;
+const pageTitle = title ? `${title} · ${SITE_TITLE}` : SITE_TITLE;
+
+const navItems = [
+  { href: '/about', label: 'About' },
+  { href: '/licensing', label: 'Licensing' },
+  { href: '/sheet-music', label: 'Sheet Music' },
+  { href: '/soundtrack', label: 'Soundtrack' },
+];
+const currentSection = '/' + Astro.url.pathname.split('/')[1];
+
+const socialLinks = [
+  { href: 'https://www.facebook.com/RiverviewHighTheMusical', label: 'Facebook', icon: facebook },
+  { href: 'https://www.twitter.com/RiverviewHighM', label: 'Twitter', icon: twitter },
+  { href: 'https://www.youtube.com/RiverviewHighMusical', label: 'YouTube', icon: youtube },
+];
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)} />
+    <link rel="icon" type="image/png" href={favicon.src} />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <a href="/">
+          <Image src={logo} alt={SITE_TITLE} width={150} densities={[1, 2]} class="header__logo" loading="eager" />
+        </a>
+        <button class="header__menu" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav">
+          &#9776;
+        </button>
+      </div>
+      <nav class="nav" id="nav">
+        {
+          navItems.map(({ href, label }) => (
+            <a class:list={['nav__item', { 'nav--selected': href === currentSection }]} href={href}>
+              {label}
+            </a>
+          ))
+        }
+      </nav>
+    </header>
+
+    <main class="content">
+      <slot />
+    </main>
+
+    <footer class="footer">
+      <div class="footer__social">
+        {
+          socialLinks.map(({ href, label, icon }) => (
+            <a href={href} class="footer__social-link" title={label}>
+              <Image src={icon} alt={label} width={32} class="footer__social-icon" />
+            </a>
+          ))
+        }
+      </div>
+      <div class="footer__copyright">
+        Copyright &copy; <span id="copyright-year">{new Date().getFullYear()}</span>
+        <script is:inline>
+          // Keep the year current without a rebuild; the build year is the no-JS fallback.
+          document.getElementById('copyright-year').textContent = new Date().getFullYear();
+        </script>
+      </div>
+    </footer>
+
+    <script>
+      const header = document.querySelector('.header')!;
+      const button = header.querySelector('.header__menu')!;
+      button.addEventListener('click', () => {
+        const open = header.classList.toggle('header--menu-visible');
+        button.setAttribute('aria-expanded', String(open));
+      });
+    </script>
+  </body>
+</html>
