@@ -6,7 +6,3 @@ export const YOUTUBE_FULL_SHOW =
   'https://www.youtube.com/watch?v=iq57ZqaD-_M&list=PLFt6eOAfeX7ewI5LbceUnZpD76e_uqaZ0&index=2';
 
 export const CONTACT_EMAIL = 'stewart@riverviewhighthemusical.com';
-
-// Post dates were written in Vancouver time; the old Jekyll build used that
-// zone for permalinks, so posts from late in the UTC day land a day earlier.
-export const SITE_TIMEZONE = 'America/Vancouver';

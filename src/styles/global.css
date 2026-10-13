@@ -405,30 +405,3 @@ figcaption {
     padding: 20px 0 0;
   }
 }
-
-/* Posts ------------------------------------------------------------------ */
-
-.post__meta {
-  color: var(--dark-grey);
-}
-
-.post__content {
-  ul,
-  ol {
-    margin-bottom: 1.5em;
-    padding-left: 1.5em;
-    line-height: 1.5;
-  }
-
-  ul {
-    list-style: disc;
-  }
-
-  ol {
-    list-style: decimal;
-  }
-
-  img {
-    margin-bottom: 1.5em;
-  }
-}

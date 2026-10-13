@@ -16,8 +16,7 @@ npm run check     # type-check
 
 ## Where things live
 
-- `src/pages/` – the five main pages, plus `[...path].astro`, which renders news posts at their original Jekyll URLs
-- `src/content/posts/` – news posts imported from the original WordPress site
+- `src/pages/` – one file per page
 - `src/content/albums/`, `src/content/scores/` – products on the Soundtrack and Sheet Music pages; add a Markdown file here to list a new one
 - `src/assets/img/` – images, optimized to WebP at build time
 - `src/styles/global.css` – all styles
