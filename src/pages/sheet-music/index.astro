@@ -1,12 +1,11 @@
 ---
 import { Image } from 'astro:assets';
-import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import Callout from '../../components/Callout.astro';
 import BuyButton from '../../components/BuyButton.astro';
+import { getProducts } from '../../products';
 
-// Filenames are date-prefixed in show order.
-const scores = (await getCollection('scores')).sort((a, b) => a.id.localeCompare(b.id));
+const scores = await getProducts('scores');
 ---
 
 <Base title="Sheet Music">
