@@ -1,9 +1,9 @@
 ---
 title:  "Girls, Girls, Girls"
-price: "6"
+price: "5"
 image: "../../assets/img/screenshots/01-Girls-Girls-Girls.jpg"
 key: "A major"
-paypal: "5MWHFLYHAHXM2"
+payhip: "NWtyI"
 ranges:
   - name: "Alex"
     range: "E3 to high G#4"

@@ -10,7 +10,7 @@ const albums = defineCollection({
       title: z.string(),
       price: z.string(),
       image: image(),
-      paypal: z.string(),
+      payhip: z.string(),
       songs: z.array(z.object({ name: z.string() })),
     }),
 });
@@ -24,7 +24,7 @@ const scores = defineCollection({
       price: z.string(),
       image: image(),
       key: z.string(),
-      paypal: z.string(),
+      payhip: z.string(),
       ranges: z.array(z.object({ name: z.string(), range: z.string() })),
     }),
 });

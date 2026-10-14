@@ -1,9 +1,9 @@
 ---
 title:  "I Could Be The One"
-price: "6"
+price: "5"
 image: "../../assets/img/screenshots/05-I-Could-Be-The-One.jpg"
 key: "Bb major"
-paypal: "YZERAQ2TF9F54"
+payhip: "eKQkn"
 ranges:
   - name: "Dexter"
     range: "Bb3 to Ab5"
