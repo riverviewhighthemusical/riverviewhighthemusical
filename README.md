@@ -18,6 +18,7 @@ npm run check     # type-check
 
 - `src/pages/` – one file per page
 - `src/content/albums/`, `src/content/scores/` – products on the Soundtrack and Sheet Music pages; add a Markdown file here to list a new one
+  (the build fails on a malformed price or Payhip key, or a key used twice)
 - `src/assets/img/` – images, optimized to WebP at build time
 - `src/styles/global.css` – all styles
 - `src/consts.ts` – site title, contact email, YouTube link
