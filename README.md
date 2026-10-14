@@ -24,6 +24,6 @@ npm run check     # type-check
 
 ## Deploy
 
-Pushing to `master` runs `.github/workflows/deploy.yml`, which builds the site and commits
-`dist/` to the `gh-pages` branch that GitHub Pages serves. To roll back, revert the latest
-commit on `gh-pages`.
+Pushing to `master` runs `.github/workflows/deploy.yml`, which builds the site and deploys it
+to GitHub Pages (Settings → Pages → Source: GitHub Actions). To roll back, revert the commit on
+`master`, or re-run an earlier deploy from the Actions tab.
