@@ -1,9 +1,9 @@
 ---
 title:  "Don't Let Me Slip By"
-price: "6"
+price: "5"
 image: "../../assets/img/screenshots/15-Dont-Let-Me-Slip-By.jpg"
 key: "C major"
-paypal: "L5GRA8THYM7T2"
+payhip: "9qhjb"
 ranges:
   - name: "Dexter"
     range: "C3 to Bb4"

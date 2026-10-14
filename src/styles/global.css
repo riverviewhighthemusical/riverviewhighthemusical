@@ -330,6 +330,10 @@ figcaption {
   }
 }
 
+.button--buy {
+  margin: 0;
+}
+
 /* Home page stories ------------------------------------------------------ */
 
 .story {

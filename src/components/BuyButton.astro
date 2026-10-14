@@ -1,0 +1,12 @@
+---
+interface Props {
+  /** Payhip product key, the last part of the product's payhip.com/b/... URL. */
+  productKey: string;
+}
+
+const { productKey } = Astro.props;
+// Payhip's direct checkout link skips the product page and opens checkout.
+const href = `https://payhip.com/buy?link=${encodeURIComponent(productKey)}`;
+---
+
+<a class="button button--buy" href={href}>Buy now</a>

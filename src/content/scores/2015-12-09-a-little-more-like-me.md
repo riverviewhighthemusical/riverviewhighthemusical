@@ -1,9 +1,9 @@
 ---
 title:  "A Little More Like Me"
-price: "6"
+price: "5"
 image: "../../assets/img/screenshots/09-A-Little-More-Like-Me.jpg"
 key: "Bb major"
-paypal: "H6ZXBQJAPJEYY"
+payhip: "Ok2NX"
 ranges:
   - name: "Randy"
     range: "F3 to C5"

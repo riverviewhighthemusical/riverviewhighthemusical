@@ -1,9 +1,9 @@
 ---
 title:  "I'm Gonna Choose"
-price: "6"
+price: "5"
 image: "../../assets/img/screenshots/02-Im-Gonna-Choose.jpg"
 key: "A major"
-paypal: "QTVKQT8WJ8U9A"
+payhip: "WukPD"
 ranges:
   - name: "Alex"
     range: "E3 to E4"

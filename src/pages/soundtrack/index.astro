@@ -3,14 +3,14 @@ import { Image } from 'astro:assets';
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import Callout from '../../components/Callout.astro';
-import PayPalButton from '../../components/PayPalButton.astro';
+import BuyButton from '../../components/BuyButton.astro';
 
 // Filenames are date-prefixed in display order.
 const albums = (await getCollection('albums')).sort((a, b) => a.id.localeCompare(b.id));
 ---
 
 <Base title="Soundtrack">
-  <p>Soundtracks will be delivered by email (MP3s) within 1-2 business days.</p>
+  <p>Soundtracks are MP3s you can download instantly after purchase.</p>
 
   {
     albums.map(({ data }) => (
@@ -31,7 +31,7 @@ const albums = (await getCollection('albums')).sort((a, b) => a.id.localeCompare
           <p class="product__price">
             Price: <strong>${data.price}</strong>
           </p>
-          <PayPalButton buttonId={data.paypal} />
+          <BuyButton productKey={data.payhip} />
         </div>
       </div>
     ))
