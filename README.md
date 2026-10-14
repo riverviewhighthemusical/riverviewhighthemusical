@@ -22,6 +22,11 @@ npm run check     # type-check
 - `src/styles/global.css` – all styles
 - `src/consts.ts` – site title, contact email, YouTube link
 
+## Checks
+
+Pull requests run `.github/workflows/ci.yml`: type-check, build, and an internal link check.
+Run `npm run check` and `npm run build` locally before opening a PR.
+
 ## Deploy
 
 Pushing to `master` runs `.github/workflows/deploy.yml`, which builds the site and deploys it
