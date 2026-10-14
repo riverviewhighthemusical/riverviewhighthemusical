@@ -10,7 +10,7 @@ const scores = (await getCollection('scores')).sort((a, b) => a.id.localeCompare
 ---
 
 <Base title="Sheet Music">
-  <p>Sheet music is a PDF you can download instantly after purchase.</p>
+  <p>PDFs delivered instantly after purchase</p>
 
   {
     scores.map(({ data }) => (

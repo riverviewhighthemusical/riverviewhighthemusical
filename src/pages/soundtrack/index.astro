@@ -10,7 +10,7 @@ const albums = (await getCollection('albums')).sort((a, b) => a.id.localeCompare
 ---
 
 <Base title="Soundtrack">
-  <p>Soundtracks are MP3s you can download instantly after purchase.</p>
+  <p>MP3s delivered instantly after purchase</p>
 
   {
     albums.map(({ data }) => (
